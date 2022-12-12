@@ -5,7 +5,7 @@
     "respondToHashChanges": true,
 
     "multiplex": {    
-        "secret": null, 
+        "secret": "16708678417036970933", 
         "id": "bc1405ddb3be01f7", 
         "url": "https://reveal-multiplex.glitch.me/" 
     },
@@ -13,6 +13,8 @@
     
     "dependencies": [
         { "src": "https://reveal-multiplex.glitch.me/socket.io/socket.io.js", "async": true },
-        { "src": "https://reveal-multiplex.glitch.me/client.js", "async": true }
+        { "src": "https://reveal-multiplex.glitch.me/master.js", "async": true },
+
+        { "src": "https://unpkg.com/reveal-notes-server/client.js", "async": true }
     ]
 }
