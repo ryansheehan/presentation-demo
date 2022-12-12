@@ -1,11 +1,17 @@
 ---
 title: Presentation Demo
-theme: solarized
+theme: sky
 ---
 
 ## Presentation Demo
 
 ![A Presentation](media/presentation-header.jpg) <!-- .element: style="max-width: 400px;" -->
+
+---
+
+## Join Me on Mobile
+
+![QR code](media/qr-code.svg) <!-- .element: style="max-width:400px" -->
 
 ---
 
