@@ -20,10 +20,6 @@ jobs:
         run: npm install
       - name: Build
         run: npm run build
-      - name: Check GH Pages Status
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          pages_threshold: major_outage
       - name: Deploy to Github Pages
         if: success()
         uses: crazy-max/ghaction-github-pages@v3.1.0
