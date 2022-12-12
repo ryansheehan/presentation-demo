@@ -1,0 +1,24 @@
+{
+  "name": "presentation-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "reveal-md deck.md -w",
+    "print": "reveal-md deck.md --print _handouts/deck.pdf",
+    "build": "reveal-md deck.md --static --static-dirs=media",
+    "clean": "run-p clean:*",
+    "clean:staic": "rimraf _static",
+    "clean:handouts": "rimraf _handouts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "reveal-md": "^5.4.0",
+    "reveal-multiplex": "^0.1.0"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^3.0.2"
+  }
+}
