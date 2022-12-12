@@ -5,7 +5,7 @@ theme: solarized
 
 ## Presentation Demo
 
-![A Presentation](/media/presentation-header.jpg) <!-- .element: style="max-width: 400px;" -->
+![A Presentation](media/presentation-header.jpg) <!-- .element: style="max-width: 400px;" -->
 
 ---
 
@@ -31,7 +31,7 @@ theme: solarized
 
 ## Presentation Demo
 
-![A Presentation](/media/presentation-header.jpg)
+![A Presentation](media/presentation-header.jpg)
 
 >---
 
@@ -52,7 +52,7 @@ theme: solarized
 
 ## Theme Market
 
-![Minions Shopping](/media/shopping.gif)
+![Minions Shopping](media/shopping.gif)
 
 ---
 
